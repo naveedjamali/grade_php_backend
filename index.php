@@ -20,7 +20,7 @@
     <div class="form">
         <form action="grade.php" method="GET">
             <label class="label" for="percentage">Enter your percentage below</label>
-            <input type="number" name="percentage" id="percentage" class="input field" placeholder="Your percentage" required/>
+            <input type="decimal" name="percentage" id="percentage" class="input field" placeholder="Your percentage" required/>
             <input type="submit" class="button" value="Check Grade">
         </form>
     </div>
