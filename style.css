@@ -1,0 +1,108 @@
+.container{
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+}
+
+body {
+    margin: 0px;
+
+    background-color: green;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.form {
+    background-color: whitesmoke;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+input{
+    padding: 10px;
+
+    padding-left: 20px;
+    font-size: 25px;
+    border-radius: 8px;
+
+}
+form{
+    display: grid;
+    grid-row-gap: 20px;
+    padding: 20px
+}
+.form_label {
+    text-align: center;
+}
+.heading{
+    padding: 30px;
+    color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.label {
+    font-size:18px;
+}
+
+.button{
+    background-color:green;
+    color:white;
+}
+
+.field {
+    border: 2px solid green;
+}
+.result{
+    display: grid;
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 15px;
+    row-gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.grade-label{
+    font-size: 20px;
+    color: green;
+}
+.grade-result{
+    font-size: 80px;
+    font-weight: bold;
+    color: green;
+}
+
+.alert {
+    display: grid;
+    background: lightcyan;
+    color: red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    row-gap: 20px;
+}
+
+.back-button{
+    
+    color: green;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+    box-shadow: 1px 1px 5px green;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px;
+}
