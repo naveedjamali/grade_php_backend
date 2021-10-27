@@ -79,6 +79,14 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: green;
 }
 
+.card{
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    display: grid;
+    border-radius: 15px;
+}
+
 .alert {
     display: grid;
     background: lightcyan;
